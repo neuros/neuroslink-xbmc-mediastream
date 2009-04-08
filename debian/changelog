@@ -1,0 +1,13 @@
+xbmc-third-parties (0.2-ppa1) gutsy; urgency=low
+
+  * MediaStream v0.97
+  * SVN_Repo_Installer
+
+ -- Ouattara Oumar Aziz (alias wattazoum) <wattazoum@gmail.com>  Tue, 04 Nov 2008 21:45:54 +0100
+
+xbmc-third-parties (0.1-1) feisty; urgency=low
+
+  * Initial release 
+
+ -- Ouattara Oumar Aziz (alias wattazoum) <wattazoum@gmail.com>  Mon, 06 Oct 2008 21:44:25 +0200
+

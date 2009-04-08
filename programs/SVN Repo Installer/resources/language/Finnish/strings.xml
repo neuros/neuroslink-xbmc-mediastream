@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <!--          Finnish 28.3.2008 -->
+    <!-- Update messages -->
+    <string id="30000">Haluatko asentaa tämän kohteen?</string>
+    <string id="30001"></string>
+    <string id="30002">Noudetaan tiedostoluetteloa...</string>
+    <string id="30003">Odota hetki...</string>
+    <string id="30004"></string>
+    <string id="30005">Noudetaan:</string>
+    <string id="30006">Polku:</string>
+    <string id="30007">Tiedosto:</string>
+    <string id="30008">Uusi kohde asennettiin:</string>
+
+    <string id="30020">Ohita</string>
+    <string id="30021">Asenna</string>
+
+    <!-- Update error messages -->
+    <string id="30030">Kohteen asennuksessa tapahtui virhe!</string>
+</strings>

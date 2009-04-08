@@ -1,0 +1,37 @@
+Source: xbmc-third-parties
+Section: misc
+Priority: extra
+Maintainer: Ouattara Oumar Aziz (alias wattazoum) <wattazoum@gmail.com>
+Build-Depends: debhelper (>= 5), unzip, tar
+Standards-Version: 3.7.2
+
+Package: xbmc-third-parties
+Architecture: all
+Depends: xbmc-skin-mediastream, xbmc-plugins-supported, xbmc-scripts-supported
+Description: XBMC Official thirdparties meta package
+ Supported Thirdparties packages.
+
+Package: xbmc-skin-mediastream
+Architecture: all
+Depends: xbmc-common
+Description: XBMC MediaStream skin 0.97
+ MediaStream is a skin for the XBMC media center, which means that users of 
+ XBMC can download it and use it as an alternative to the default look and feel 
+ that comes with the media center. (If you would like to find out more about 
+ XBMC please visit xbmc.org). MediaStream has been designed around a central 
+ concept that "Media is King", in other words the reason you are using XBMC is 
+ to get access to your media and the skin should make that as simple (and as 
+ pleasurable) as possible.
+ 
+Package: xbmc-plugins-supported
+Architecture: all
+Depends: xbmc-common
+Description: XBMC supported plugins
+ Contains:
+ * SVN Repo installer plugin.
+
+Package: xbmc-scripts-supported
+Architecture: all
+Depends: xbmc-common
+Description: XBMC supported scripts
+ .

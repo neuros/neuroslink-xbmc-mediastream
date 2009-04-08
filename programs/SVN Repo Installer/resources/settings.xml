@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <setting id="repository" type="fileenum" mask="/" values="resources\repositories\" label="30500" default="xbmc-addons" />
+</settings>

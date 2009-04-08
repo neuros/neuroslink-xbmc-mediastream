@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <!-- Update messages -->
+    <string id="30000">Vill du installera detta tillägg?</string>
+    <string id="30001"></string>
+    <string id="30002">Hämtar fillista...</string>
+    <string id="30003">Var god vänta...</string>
+    <string id="30004"></string>
+    <string id="30005">Hämtar:</string>
+    <string id="30006">Sökväg:</string>
+    <string id="30007">Fil:</string>
+    <string id="30008">Ditt nya tillägg installerades i:</string>
+
+    <string id="30020">Hoppa över</string>
+    <string id="30021">Installera</string>
+
+    <!-- settings -->
+    <string id="30500">Förråd att lista</string>
+
+    <!-- Update error messages -->
+    <string id="30030">Ett fel uppstod under installationen av tillägget!</string>
+</strings>
