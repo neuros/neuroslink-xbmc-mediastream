@@ -672,15 +672,27 @@
               <label> $LOCALIZE[31072] </label>
               <onclick>XBMC.Reset()</onclick>
             </item>
+            <item id="6">
+              <description>Suspend</description>
+              <label> $LOCALIZE[13011] </label>
+              <onclick>XBMC.Suspend()</onclick>
+            </item>
+            <item id="9">
+              <description>Exit Button</description>
+              <label> $LOCALIZE[31076] </label>
+              <onclick>XBMC.Quit()</onclick>
+            </item>
             <item id="3">
               <description>Reload Button</description>
               <label> $LOCALIZE[31073] </label>
               <onclick>XBMC.RestartApp()</onclick>
+              <visible>false</visible>
             </item>
             <item id="4">
               <description>Refresh Button</description>
               <label> $LOCALIZE[31075] </label>
               <onclick>XBMC.ReloadSkin()</onclick>
+              <visible>false</visible>
             </item>
             <item id="5">
               <description>Dashboard Button</description>
@@ -688,23 +700,17 @@
               <onclick>XBMC.Dashboard()</onclick>
               <visible>System.Platform.Xbox</visible>
             </item>
-            <item id="6">
-              <description>Suspend</description>
-              <label> $LOCALIZE[13011] </label>
-              <onclick>XBMC.Suspend()</onclick>
-              <visible>!System.Platform.Xbox</visible>
-            </item>
             <item id="7">
               <description>Hibernate</description>
               <label> $LOCALIZE[13010] </label>
               <onclick>XBMC.Hibernate()</onclick>
-              <visible>!System.Platform.Xbox</visible>
+              <visible>false</visible>
             </item>
             <item id="8">
               <description>Logout Button</description>
               <label> $LOCALIZE[20126] </label>
               <onclick>System.LogOff</onclick>
-              <visible>system.hasloginscreen</visible>
+              <visible>false</visible>
             </item>
           </content>
         </control>
