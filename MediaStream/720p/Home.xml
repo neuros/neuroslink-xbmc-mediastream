@@ -491,6 +491,16 @@
            </focusedlayout>
 
           <content>
+            <item id="6">
+              <description>Launch Miro Button</description>
+              <label> $LOCALIZE[31054] </label>
+              <onclick>XBMC.System.Exec("`miro`")</onclick>
+            </item>
+            <item id="7">
+              <description>Launch Gajim Button</description>
+              <label> $LOCALIZE[31055] </label>
+              <onclick>XBMC.System.Exec("`gajim`")</onclick>
+            </item>
             <item id="1">
               <description>Browse Button</description>
               <label> $LOCALIZE[31000] </label>
