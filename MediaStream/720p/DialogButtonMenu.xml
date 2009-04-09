@@ -210,7 +210,7 @@
 					</control>
 
 					<control type="image">
-						<description>Restart XBMC Button Overlay</description>
+						<description>Reset Button Overlay</description>
 						<posx>874</posx>
 						<include>ButtonMenuOverlayDims</include>
 						<texture>ButtonMenuGlass.png</texture>
@@ -218,20 +218,20 @@
 						<visible>Control.HasFocus(3115)</visible>
 					</control>
 					<control type="button" id="3115">
-						<description>Restart XBMC button</description>
+						<description>Reset button</description>
 						<visible>System.LoggedOn</visible>
 						<posx>880</posx>
 						<include>ButtonMenuButtonDims</include>
 						<texturefocus>ButtonMenuRestartFO.png</texturefocus>
 						<texturenofocus diffuse="GreyDark.png">ButtonMenuRestartFO.png</texturenofocus>
-						<onclick>XBMC.RestartApp()</onclick>
+						<onclick>XBMC.Reboot()</onclick>
 						<pulseonselect>no</pulseonselect>
 						<onleft>3110</onleft>
 						<onright>3118</onright>
 						<onup>3115</onup>
 						<ondown>3115</ondown>
 						<font>-</font>
-						<label>$LOCALIZE[13313] XBMC</label>
+						<label>$LOCALIZE[13313]</label>
 					</control>
 
 
