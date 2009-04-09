@@ -406,6 +406,21 @@
               <label> $LOCALIZE[31060] </label>
               <onclick>XBMC.ActivateWindow(15)</onclick>
             </item>
+            <item id="5">
+              <description>Launch Pandora Button</description>
+              <label> Pandora </label>
+              <onclick>XBMC.System.Exec("`firefox http://www.pandora.com/`")</onclick>
+            </item>
+            <item id="6">
+              <description>Launch Lastfm Button</description>
+              <label> Last.FM </label>
+              <onclick>XBMC.System.Exec("`firefox http://www.last.fm/`")</onclick>
+            </item>
+            <item id="7">
+              <description>Launch Songza Button</description>
+              <label> Songza </label>
+              <onclick>XBMC.System.Exec("`firefox http://songza.com/`")</onclick>
+            </item>
           </content>
         </control>
 
