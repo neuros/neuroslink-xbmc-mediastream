@@ -347,6 +347,11 @@
               <onclick>XBMC.ActivateWindow(24,Playlists)</onclick>
             </item>
             <item id="6">
+              <description>Web Video</description>
+              <label> $LOCALIZE[31128] </label>
+              <onclick>XBMC.System.Exec("`firefox http://app.neuros.tv/`")</onclick>
+            </item>
+            <item id="7">
               <description>Settings Button</description>
               <label> $LOCALIZE[31060] </label>
               <onclick>XBMC.ActivateWindow(17)</onclick>
