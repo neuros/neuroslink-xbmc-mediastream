@@ -1,4 +1,5 @@
 debian/tmp
 debian/xbmc-*
 debian/files
+debian/changelog
 *-stamp
