@@ -1361,19 +1361,19 @@
             <description>Power Button</description>
             <label> $LOCALIZE[31007] </label>
             <label2> $LOCALIZE[31017] </label2>
-            <onclick>XBMC.ActivateWindow(ShutdownMenu)</onclick>
+            <onclick>SetFocus(300)</onclick>
           </item>
           <item id="6">
             <description>My System Menu</description>
             <label> $LOCALIZE[31006] </label>
             <label2> $LOCALIZE[31016] </label2>
-            <onclick>SetFocus(506)</onclick>
+            <onclick>SetFocus(300)</onclick>
           </item>
           <item id="5">
             <description>My Weather Button</description>
             <label> $LOCALIZE[31005] </label>
             <label2> $LOCALIZE[31043] </label2>
-            <onclick>XBMC.ActivateWindow(2600)</onclick>
+            <onclick>SetFocus(300)</onclick>
             <visible>!Skin.HasSetting(HideWeather)</visible>
             <visible>System.HasNetwork</visible>
           </item>
@@ -1382,42 +1382,42 @@
             <label> $LOCALIZE[31001] </label>
             <label2> $LOCALIZE[31011] </label2>
             <visible>!Skin.HasSetting(HideVideos)</visible>
-            <onclick>XBMC.ActivateWindow(24)</onclick>
+            <onclick>SetFocus(300)</onclick>
           </item>
           <item id="9">
             <description>My Movies Button</description>
             <label> $LOCALIZE[31111] </label>
             <label2> $LOCALIZE[31011] </label2>
             <visible>!Skin.HasSetting(HideMovies)</visible>
-            <onclick>XBMC.ActivateWindow(MyVideoLibrary,movietitles,return)</onclick>
+            <onclick>SetFocus(300)</onclick>
           </item>
           <item id="8">
             <description>My TV Shows Button</description>
             <label> $LOCALIZE[31008] </label>
             <label2> $LOCALIZE[31011] </label2>
             <visible>!Skin.HasSetting(HideTVShows)</visible>
-            <onclick>XBMC.ActivateWindow(MyVideoLibrary,tvshowtitles,return)</onclick>
+            <onclick>SetFocus(300)</onclick>
           </item>
           <item id="2">
             <description>My Music Button</description>
             <label> $LOCALIZE[31002] </label>
             <label2> $LOCALIZE[31012] </label2>
             <visible>!Skin.HasSetting(HideMusic)</visible>
-            <onclick>XBMC.ActivateWindow(5)</onclick>
+            <onclick>SetFocus(300)</onclick>
           </item>
           <item id="3">
             <description>My Pics Button</description>
             <label> $LOCALIZE[31003] </label>
             <label2> $LOCALIZE[31013] </label2>
             <visible>!Skin.HasSetting(HidePictures)</visible>
-            <onclick>XBMC.ActivateWindow(2)</onclick>
+            <onclick>SetFocus(300)</onclick>
           </item>
           <item id="4">
             <description>My Programs Menu</description>
             <label> $LOCALIZE[31004] </label>
             <label2> $LOCALIZE[31014] </label2>
             <visible>!Skin.HasSetting(HidePrograms)</visible>
-            <onclick>XBMC.ActivateWindow(1)</onclick>
+            <onclick>SetFocus(300)</onclick>
           </item>
           <item id="10">
             <description>DVD Button</description>
