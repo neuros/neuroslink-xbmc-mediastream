@@ -828,7 +828,7 @@
             <item id="10">
               <description>By Title</description>
               <label> $LOCALIZE[31044] $LOCALIZE[369] </label>
-              <onclick>XBMC.ActivateWindow(MyVideoLibrary,moviestudios,return)</onclick>
+              <onclick>XBMC.ActivateWindow(MyVideoLibrary,movietitles,return)</onclick>
             </item>
             <item id="7">
               <description>Recently Added</description>
