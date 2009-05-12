@@ -659,7 +659,7 @@
             <item id="10">
               <description>Minimize Button</description>
               <label> $LOCALIZE[31077] </label>
-              <onclick>XBMC.HideApp()</onclick>
+              <onclick>XBMC.Minimize()</onclick>
             </item>
             <item id="3">
               <description>Reload Button</description>
