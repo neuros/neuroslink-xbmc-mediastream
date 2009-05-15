@@ -1,27 +1,33 @@
+xbmc-third-parties (0.2.1-neuros5) intrepid; urgency=low
+
+  * Update the web video menu item to be non-blocking
+
+ --  <nerochiaro@neurostechnology.com>  Fri, 15 May 2009 20:58:49 +0200
+
 xbmc-third-parties (0.2.1-neuros4) intrepid; urgency=low
 
   * Fix minimize to desktop using changes in main package
 
- --  <nerochiaro@nerobox>  Tue, 12 May 2009 20:19:44 +0200
+ --  <nerochiaro@neurostechnology.com>  Tue, 12 May 2009 20:19:44 +0200
 
 xbmc-third-parties (0.2.1-neuros3) intrepid; urgency=low
 
   * Fix movies by title (typo prevented it to work)
   * ENTER on main menu now open sub-menu just like RIGHT does
 
- --  <nerochiaro@nerobox>  Sat, 09 May 2009 13:37:38 +0200
+ --  <nerochiaro@neurostechnology.com>  Sat, 09 May 2009 13:37:38 +0200
 
 xbmc-third-parties (0.2.1-neuros2) intrepid; urgency=low
 
   * Refresh release
 
- --  <nerochiaro@nerobox>  Mon, 04 May 2009 20:40:23 +0200
+ --  <nerochiaro@neurostechnology.com>  Mon, 04 May 2009 20:40:23 +0200
 
 xbmc-third-parties (0.2.1-neuros1) intrepid; urgency=low
 
   * Add "by title" items on movies and tvshows menus
 
- --  <nerochiaro@nerobox>  Fri, 24 Apr 2009 19:37:18 +0200
+ --  <nerochiaro@neurostechnology.com>  Fri, 24 Apr 2009 19:37:18 +0200
 
 xbmc-third-parties (0.2-neuros1) intrepid; urgency=low
 
