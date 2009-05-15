@@ -349,7 +349,7 @@
             <item id="6">
               <description>Web Video</description>
               <label> $LOCALIZE[31128] </label>
-              <onclick>XBMC.System.Exec("`firefox http://app.neuros.tv/`")</onclick>
+              <onclick>XBMC.System.Exec("/usr/bin/firefox", "http://app.neuros.tv/")</onclick>
             </item>
             <item id="7">
               <description>Settings Button</description>
